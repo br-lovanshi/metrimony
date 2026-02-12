@@ -17,10 +17,12 @@ export default function Layout() {
                     <p className="text-gray-500">
                         © 2026 Lodha Samaj Matrimony. All rights reserved.
                     </p>
-                    <p className="mt-1 text-gray-400 text-xs">Developed by Brajesh Lovanshi</p>
+                    <p className="mt-1 text-gray-400 text-xs">
+                        Developed by <a href="https://github.com/br-lovanshi" target="_blank" rel="noopener noreferrer" className="hover:text-rose-600 underline">Brajesh Lovanshi</a>
+                    </p>
                 </div>
             </footer>
         </div>
     );
 }
-```
+
