@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Heart, Menu, X, UserPlus, Users, Lock } from 'lucide-react';
+import { Menu, X, UserPlus, Users, Lock } from 'lucide-react';
 import { useState } from 'react';
 import clsx from 'clsx';
 

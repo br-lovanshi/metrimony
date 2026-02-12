@@ -45,9 +45,9 @@ export default function Home() {
                     </div>
                     <div className="hidden lg:block lg:w-1/2 flex justify-center">
                         <img
-                            src="/lodha-logo.png"
-                            alt="Lodha Samaj Logo"
-                            className="max-h-[400px] w-auto object-contain hover:scale-105 transition-transform duration-500 drop-shadow-xl"
+                            src="/hero-couple.png"
+                            alt="Happy Couple"
+                            className="max-h-[500px] w-auto object-cover rounded-2xl shadow-xl hover:scale-105 transition-transform duration-500"
                         />
                         <p className="text-center text-rose-800 font-bold mt-4 text-xl tracking-wide">
                             || शौर्यं तेजः धृतिर्दाक्ष्यं ||
@@ -120,6 +120,86 @@ export default function Home() {
                         <Link to="/samaj-connect" className="inline-flex items-center px-8 py-3 border border-gray-500 text-base font-medium rounded-md text-white hover:bg-gray-800 transition-colors">
                             Join Samaj
                         </Link>
+                    </div>
+                </div>
+            </section>
+
+            {/* Foundation & Contact Section */}
+            <section className="grid md:grid-cols-2 gap-12 max-w-7xl mx-auto px-4 pb-12">
+                <div className="bg-rose-50 p-8 rounded-2xl space-y-6">
+                    <h2 className="text-2xl font-bold text-gray-900 border-b border-rose-200 pb-2">Connect With Us!</h2>
+
+                    <div className="space-y-4">
+                        <div>
+                            <h3 className="font-semibold text-gray-900 flex items-center gap-2">
+                                <span className="text-xl">📧</span> Mail
+                            </h3>
+                            <a href="mailto:lodhasamajshikshafoundation@gmail.com" className="text-rose-700 hover:underline break-all">
+                                lodhasamajshikshafoundation@gmail.com
+                            </a>
+                        </div>
+
+                        <div>
+                            <h3 className="font-semibold text-gray-900 flex items-center gap-2">
+                                <span className="text-xl">📍</span> Location
+                            </h3>
+                            <p className="text-gray-600">
+                                18-20, Swapnil farm, Mirjapur, Tejaji nagar bypass, Indore, M.P. 452020.
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3 className="font-semibold text-gray-900 flex items-center gap-2">
+                                <span className="text-xl">🌐</span> Lodha Samaj Shikhsa Foundation
+                            </h3>
+                            <a href="https://lodhasamajshikshafoundation.netlify.app/" target="_blank" rel="noreferrer" className="block mb-2 text-rose-700 hover:underline break-all">
+                                https://lodhasamajshikshafoundation.netlify.app/
+                            </a>
+                            <img src="/foundation-logo.png" alt="Lodha Samaj Shiksha Foundation Logo" className="h-24 w-auto object-contain mt-2" />
+                        </div>
+
+                        <div>
+                            <h3 className="font-semibold text-gray-900 flex items-center gap-2">
+                                <span className="text-xl">📄</span> Reports/Lists
+                            </h3>
+                            <p className="text-gray-600">
+                                Detailed lists of our Members, Donors, and Volunteers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm space-y-6">
+                    <h2 className="text-2xl font-bold text-gray-900 border-b border-gray-200 pb-2">Contact Us</h2>
+                    <p className="text-sm text-gray-500">Founder & Office Bearers of Lodha Samaj Shiksha Foundation</p>
+
+                    <div className="space-y-6">
+                        <div className="flex items-start gap-4">
+                            <div className="bg-rose-100 p-3 rounded-full text-rose-600 font-bold text-xl">R</div>
+                            <div>
+                                <h3 className="font-bold text-lg text-gray-900">Ramgopal Lawvanshi</h3>
+                                <p className="text-rose-600 font-medium">Founder / President (अध्यक्ष/संस्थापक)</p>
+                                <a href="tel:+919893768188" className="text-gray-600 hover:text-gray-900 block mt-1">📞 +91 98937 68188</a>
+                            </div>
+                        </div>
+
+                        <div className="flex items-start gap-4">
+                            <div className="bg-blue-100 p-3 rounded-full text-blue-600 font-bold text-xl">S</div>
+                            <div>
+                                <h3 className="font-bold text-lg text-gray-900">Sunil Sadh</h3>
+                                <p className="text-blue-600 font-medium">Secretary (सचिव)</p>
+                                <a href="tel:+919977994298" className="text-gray-600 hover:text-gray-900 block mt-1">📞 +91 99779 94298</a>
+                            </div>
+                        </div>
+
+                        <div className="flex items-start gap-4">
+                            <div className="bg-green-100 p-3 rounded-full text-green-600 font-bold text-xl">R</div>
+                            <div>
+                                <h3 className="font-bold text-lg text-gray-900">Ramswaroop Shastri</h3>
+                                <p className="text-green-600 font-medium">Treasurer (कोषाध्यक्ष)</p>
+                                <a href="tel:+917999980988" className="text-gray-600 hover:text-gray-900 block mt-1">📞 +91 79999 80988</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
