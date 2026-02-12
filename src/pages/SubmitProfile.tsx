@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { supabase } from '../services/supabaseClient';
 import { useNavigate } from 'react-router-dom';
-import { Upload, Loader2, CheckCircle, User, Users, MapPin, Briefcase, Heart, Star } from 'lucide-react';
+import { Upload, Loader2, CheckCircle, User, Users, MapPin, Briefcase, Heart } from 'lucide-react';
 
 export default function SubmitProfile() {
     const navigate = useNavigate();
